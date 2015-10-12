@@ -8,4 +8,4 @@ script:
 env:
   - EXAMPLE_MONGODB_URL=mongodb://$MONGODB_PORT_27017_TCP_ADDR/keystonejs-example
 services:
-  - dockerfile/mongodb
+  - mongo
