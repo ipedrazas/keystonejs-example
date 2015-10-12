@@ -1,4 +1,4 @@
-image: dockerfile/nodejs
+image: node:0.10
 name: keystonejs-example
 script:
   - apt-get -y install git make g++ python
